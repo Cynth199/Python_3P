@@ -1,1 +1,14 @@
+///use coments to deltete, save u the trouble of reseting 
 Print("hello world")
+print("AAAA")
+B = ("String")
+print(B)
+print("")
+print(19)
+
+print("I")
+print("AM")
+print("CODING")
+print("")
+print("CAN U?")
+
