@@ -1,0 +1,13 @@
+Item = input("Item or else")
+Price = int(input("Price"))
+print(Price*0.9)
+
+Intial = input("Name IntIAL ")
+Age = int(input("Age"))
+isAllowed = true if(Age>18)
+
+
+if isAllowed = true;  pricess Granted is true")
+
+
+
