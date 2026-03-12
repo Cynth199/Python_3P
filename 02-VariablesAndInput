@@ -1,0 +1,25 @@
+#Excercises
+
+_status = 0
+
+
+x = 5
+y = 10
+x = y
+print(x)
+
+ColourFav = input ("What is your favorite colour? ")
+
+#Program asking Name, Surname, City
+
+Name = input ("What is your First Name?")
+Surname = input ("What is your Surname? ")
+City = input ("What is your Current City? ")
+
+print("Hello", Name , Surname+".","Welcome to", City)
+
+
+a = "Apples"
+b = "Bananas"
+
+
