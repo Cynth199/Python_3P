@@ -21,4 +21,9 @@ elif score >= 60:
 else:
     print("C")
 
+#q2
+user = input("Username: ")
+password = input("Password: ")
 
+if user == "admin" and password == "Password":
+    print("Access granted")
