@@ -1,0 +1,87 @@
+#q1
+#1,2,3,4,5
+
+#q2
+for i in range(2, 7):
+    print(i)
+
+#q3
+number = int(input("Enter a number: "))
+for i in range(number):
+    print("Go!")
+
+#q4
+for i in range(1, 11):
+    if i % 3 == 0:
+        print(i)
+#prints 3,6,9. first defines numbers to print (1-10) then only prints if i can be divide by 3 and leave 0.
+
+#q5a
+for i in range(1, 11):
+    print(i)
+    if i % 2 == 0:
+        print("even")
+#q5b
+for i in range(1, 11):
+    print(i)
+    if i % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+#q6 extension
+startNumber = int(input("whole number pls"))
+for i in range(1, startNumber):
+    print(i)
+sum = 
+#tried. coundnt figure how to find sum without mathmatical formula :(
+
+#q1, section 2
+# c a t
+
+#q2
+word = "banana"
+count = 0
+for char in word:
+    if char == "a":
+
+        count = count + 1
+        print(count)
+
+#q3
+for character in "cat":
+    print(character)
+#prints letters one at a time
+
+#q4
+word = "cheese"
+count = 0
+for char in word:
+    if char == "e":
+        count = count + 1
+print(count)
+
+#q5
+for character in "python":
+    print(character)
+
+#6 extention
+word = input()
+for i in word:
+    if i == ("a"or"e"or"i"or"o"or"u")
+    print("match")
+    else: print("no match")
+#syntax is wrong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
