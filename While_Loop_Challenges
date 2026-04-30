@@ -1,0 +1,78 @@
+#While loop challenge1 (gcsecs.com)
+#Rearrange the four lines of code below
+#to get the while loop to work.
+#It should keep asking for the password until "kebab" is entered.
+#HINT: There might be some indentation
+
+password = ""
+while password != "kebab":
+    password = input('Please enter a password: ')
+print ("correct password accepted")
+
+#While loop challenge2 (gcsecs.com)
+#Rearrange the four lines of code below
+#to get the while loop to work.
+#It should keep asking "are we there yet" until "y" entered
+#You might need to indent some lines
+
+answer = "N"
+while answer != "Y":
+    print("Are we there yet?")
+    answer = str(input("Please respond, y or n: ").upper())
+print("Yay! We are there!!")
+
+#While loop challenge3 (gcsecs.com)
+#Rearrange the four lines of code below
+#to get the while loop to work.
+#It should keep asking "Press 1 for choice or 2 to exit"
+#until "2" is entered
+#You might need to indent some lines
+
+StayInLoop = 1
+while StayInLoop != 2:
+    print("Press 1 for  choice or 2 to exit")
+    StayInLoop = int(input("Please respond, 1 or 2: "))
+print("Exited")
+
+#While loop challenge4 (gcsecs.com)
+#There is an error in the code below
+#It is meant to display Loop 1 to Loop 10 then "End"
+#Can you fix it?
+
+loopCount = 1
+while loopCount < 11:
+  print("Loop", loopCount)
+  loopCount = loopCount + 1
+
+print("End")
+
+#While loop challenge5 (gcsecs.com)
+#Test this code by running it then hitting the enter button
+#The code should stay in a loop until a username is entered
+#Add a line of code that displays the username entered and..
+#some text that says "accepted" (this message should NOT be repeated)
+
+username = ""
+while not username:
+    username = str(input("Enter username: "))
+
+print("Your username,",username,"has been accepted")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
