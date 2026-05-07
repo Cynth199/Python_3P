@@ -4,3 +4,59 @@ for i in range(1,6)
   print(i)
 this code prints 1,2,3,4,5
 range is range, i is temp variable
+
+number = int(input("Enter a number: "))
+for i in range(number):
+    print("Go!")
+
+range is replaced with varible user sets. varible is cast to integer. for loop prints the gos
+
+for i in range(1, 11):
+    if i % 3 == 0:
+        print(i)
+this code has a condiction. if the varible i is divisable by 3 it can print
+
+word = "cat"
+for letter in word:
+    print(letter)
+
+prints c,a,t. letter is temp varible. same principle as the numbers
+
+WHILE LOOPS
+for loops but instead of a number, its condiction
+
+time=90
+while time != 0:
+  int(input("is time 0?"))
+
+also remember colons
+
+password = ""
+while password != "kebab":
+    password = input('Please enter a password: ')
+print ("correct password accepted")
+
+will keep asking for password until condition is met
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
