@@ -1,0 +1,6 @@
+for loops
+
+for i in range(1,6)
+  print(i)
+this code prints 1,2,3,4,5
+range is range, i is temp variable
