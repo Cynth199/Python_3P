@@ -73,7 +73,7 @@ for i in word:
     if i == ("a"or"e"or"i"or"o"or"u")
     print("match")
     else: print("no match")
-#syntax is wrong
+#syntax is wrong+code just doesnt work lol
 
 
 
