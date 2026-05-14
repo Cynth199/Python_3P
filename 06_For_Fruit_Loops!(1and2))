@@ -70,10 +70,23 @@ for character in "python":
 #6 extention
 word = input()
 for i in word:
-    if i == ("a"or"e"or"i"or"o"or"u")
-    print("match")
+    if i == ("a"or"e"or"i"or"o"or"u"):
+      print("match")
     else: print("no match")
-#syntax is wrong+code just doesnt work lol
+#code just prints no match, maybe condiction on if statement is bad?
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
