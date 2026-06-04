@@ -145,13 +145,58 @@ while not username:
   print("username entered")
 print("username accepted")
 
+#While loop challenge6 (gcsecs.com)
+#There is a line of code missing below
+#The point of al the code is to generate a random number, then..
+#asks the user to try and guess it
+#Can you fix it?
+#Look through the code then enter a fix below
+
+import random
+number=random.randint(1,10)
+userGuess=int(input("Guess the number between 1-10"))
 
 
+# Add one line of code here to allow the user to
+#..guess the random number multiple times
+# Hint: You might need to indent some code
+
+t = 1
+while userGuess!=number:
+  if number < userGuess:
+      userGuess=int(input("Guess to High, try again: "))
+  else:
+      userG8uess=int(input("Guess to Low, try again: "))
+print("Yay! You got it correct!!!")
+
+#Relational/Comparison Operator challenge1
+#Run the code, it returns "False"
+#Change the operator so that...
+#.."True" is displayed
+
+print(10 > 5)
+
+#Relational/Comparison Operator challenge2
+#Run the code, it returns "False"
+#Change the operator so that...
+#.."True" is displayed
+
+print(100 <= 100)
+
+#Relational/Comparison Operator challenge3
+#Run the code, it returns "False"
+#Change the operator so that...
+#.."True" is displayed
+
+print(100 == 100)
+
+#Relational/Comparison Operator challenge4
+#Run the code, it returns "False"
+#Change the operators so that...
+#.."True" is displayed
 
 
-
-
-
+print(100 != 1 and 5 < 10 )
 
 
 
